@@ -10,7 +10,7 @@ It specifically demonstrates the mathematical concept of Convolutional Neural Ne
 
 ---
 
-## 🎯 Objectives (ABA-2 Requirements)
+## 🎯 Objectives 
 
 1. **Binary CNN Classification:** Classify images into *Wearing helmet/mask* vs *Not wearing helmet/mask*.
 2. **Visual Progression Demonstration:** Explicitly visualize the progression:
@@ -106,7 +106,3 @@ When explaining during your video presentation, walk through each stage:
   $$\begin{bmatrix} 19 & 6 \\ 5 & 20 \end{bmatrix}$$
 
 ---
-
-## 📝 Assignment Book Write-Up (One-Paragraph Summary)
-
-> In this project, we designed, implemented, and analyzed a Convolutional Neural Network (CNN) in Python and TensorFlow/Keras to perform binary visual classification determining whether an individual is wearing a safety helmet/mask or not. The architecture processes $128 \times 128$ RGB images through hierarchical feature extraction layers: starting with $3 \times 3$ convolution kernels that capture low-level edge and boundary responses, non-linear activation via Rectified Linear Units (ReLU) to eliminate negative responses, and $2 \times 2$ Max-Pooling stages to compress spatial dimensions and achieve translation invariance. Deeper convolutional blocks progressively aggregate low-level edges into mid-level geometric curves and high-level contextual headgear patterns before passing flattened representations through a Dense layer with dropout regularization and a Sigmoid output classifier. Evaluated on a balanced test dataset, the trained CNN achieved 78.00% test accuracy (loss: 0.5148) with balanced precision and recall across both classes, visually and quantitatively verifying how deep convolutional layers progressively extract hierarchical visual features for automated safety gear detection.
