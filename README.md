@@ -83,8 +83,6 @@ python train.py
 
 ## 🔍 Visual Progression Explained 
 
-When explaining during your video presentation, walk through each stage:
-
 1. **Original Image ($128 \times 128 \times 3$):** Input RGB photograph of the person.
 2. **Kernel ($3 \times 3$):** A learned matrix of weights that slides across the image calculating spatial dot products.
 3. **Convolution ($I * K + b$):** Linear response of the image convolved with the kernel, highlighting areas where patterns match.
