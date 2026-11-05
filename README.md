@@ -81,7 +81,7 @@ python train.py
 
 ---
 
-## 🔍 Visual Progression Explained (For Presentation & Viva)
+## 🔍 Visual Progression Explained 
 
 When explaining during your video presentation, walk through each stage:
 
