@@ -19,7 +19,6 @@ It specifically demonstrates the mathematical concept of Convolutional Neural Ne
    * **Early Layers (Conv 1):** Low-level edges, borders, and line textures.
    * **Middle Layers (Conv 2):** Mid-level curves, corners, and contours.
    * **Deep Layers (Conv 3):** High-level abstract patterns and headgear/helmet regions.
-4. **Assignment & Video Presentation:** Clear results and concise write-up ready for the 5–8 minute YouTube presentation and Assignment Book submission.
 
 ---
 
